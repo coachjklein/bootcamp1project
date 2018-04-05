@@ -1,0 +1,14 @@
+.contact-section{
+    width: 50%;
+    height: 500px;
+}
+.contact-form {
+    height: 500px;
+    width: 100%;
+    border: none;
+}
+.test-iframe {
+    height: 450px;
+    width: 400px;
+    border: none;
+}

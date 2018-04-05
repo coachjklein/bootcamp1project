@@ -1,0 +1,135 @@
+/* Resets */
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+ * {
+     margin:0;
+ }
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* /Resets*/
+
+/* Helper Classes */
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.centered {
+    margin: 0 auto;
+}
+.text-center { 
+    text-align: center;
+}
+/* /Helper Classes */
+
+/* Navbar */
+.nav {
+    background-color: black;
+    position: static;
+}
+.logo {
+    height: 125px;
+}
+.nav-links {
+    margin-top:50px;
+}
+.nav-links li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.link {
+    color: #ff0;
+    padding: 5px 10px;
+    border-radius: 100%;
+}
+.link:hover {
+    background-color: white;
+    color: black;
+}
+.link.active {
+    background-color: black;
+    color: white;
+}
+.animation {
+  animation-name: roll;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes roll {
+  from {
+    margin: 0;
+  }
+  to {
+    margin-left: 15%;
+  }
+}
+/* /Navbar */
+
+/* Main */
+.hero {
+    background-image: url("../img/basketball.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.hero-text{
+    text-shadow: 2px 2px white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 250%;
+    margin-top: 40px;
+    margin-right: 50px;
+    background-color: rgba(0, 255, 204, 0.6);
+}
+/* /Main */
+
+/* Footer */
+.box {
+    width: calc(100% / 3);
+    height: 135px;
+    float: left;
+}
+.one {
+    background-color: black;
+}
+.textone {
+    background-color: rgba(0, 255, 204, 0.6);
+    color: #ff0;
+    height: 50px;
+    width: 200px;
+    margin-top: 1em;
+    margin-left: 5em;
+    padding: 20px;
+}
+.two {
+    background-color: silver;
+}
+.three {
+    background-color: black;
+}
+.i-container {
+    width: 125px;
+    margin: 10px auto;
+}
+.i-wrap {
+    width: 36px;
+}
+.icon {
+    color: black;
+    font-size: 36px;
+    display: block;
+}
+
+/* /Footer */
